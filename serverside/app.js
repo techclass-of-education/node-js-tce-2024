@@ -8,7 +8,7 @@ const bodyParser = require("body-parser");
 const regsiterRouter = require("./routers/registerRouter");
 const loginRouter = require("./routers/loginRouter");
 
-
+//create exapress app
 const app = express();
 // app.use(cookieParser())
 app.use(cors({ origin: 'http://localhost:3000' }));
